@@ -23,16 +23,25 @@
         margin-bottom: 20px;
       }
       .gallery-picture__summer,
-      .gallery-picture__spring {
+      .gallery-picture__winter,
+      .gallery-picture__spring,
+      .gallery-picture__autumn,
+      .gallery-picture__fishing,
+      .gallery-picture__spa
+       {
         text-align: center;
       }
       .img-line,
       .gallery-picture__summer-up,
       .gallery-picture__summer-middle,
       .gallery-picture__summer-down,
-      .gallery-picture__spring-up,
-      .gallery-picture__spring-middle,
-      .gallery-picture__spring-down { 
+      .gallery-picture__winter-up,
+      .gallery-picture__winter-middle,
+      .gallery-picture__winter-doun,
+      .gallery-picture__spring-down,
+      .gallery-picture__autumn-down,
+      .gallery-picture__fishing-doun,
+      .gallery-picture__spa-down { 
         padding: 15px; 
         background: white; 
         margin-right: 10px; 
@@ -47,39 +56,87 @@
     <div>
         <ul>
             <li><a href="#gallery-picture__summer" onclick="toggleBlock('block1')">Summer</a></li>
-            <li><a href="#gallery-picture__spring" onclick="toggleBlock('block2')">Spring</a></li>
+            <li><a href="#gallery-picture__winter" onclick="toggleBlock('block2')">Winter</a></li>
+            <li><a href="#gallery-picture__spring" onclick="toggleBlock('block3')">Spring</a></li>
+            <li><a href="#gallery-picture__autumn" onclick="toggleBlock('block4')">Autumn</a></li>
+            <li><a href="#gallery-picture__fishing" onclick="toggleBlock('block5')">Fishing</a></li>
+            <li><a href="#gallery-picture__spa" onclick="toggleBlock('block6')">SPA</a></li>
         </ul>
         
         <div id="block1" class="block block1">
             <div id="gallery-picture__summer" class="gallery-picture__summer">
                 <div class="img-line gallery-picture__summer-up">
-                    <img width="600" src=".github/workflows/img/sm_ea94d5a6d2a45a847b16ac9ca4a31c8f.jpg" alt="House in the forest">
-                    <img width="600" src=".github/workflows/img/sm_532d9be352f6dd031065a501e251d26d.jpg" alt="House in the forest">
+                    <img width="300" src="img/summer-house-on-the-mountain.jpg" alt="House in the forest">
+                    <img width="300" src="img/summer-horse.jpg" alt="House in the forest">
                 </div>
                 <div class="img-line gallery-picture__summer-middle">
-                    <img width="600" src=".github/workflows/img/sm_ea94d5a6d2a45a847b16ac9ca4a31c8f.jpg" alt="House in the forest">
-                    <img width="600" src=".github/workflows/img/sm_7eec0efa202c40d8ee1e2a156a646b2a.jpg" alt="House in the forest">
+                    <img width="300" src="img/summer-lake.jpg" alt="House in the forest">
+                    <img width="300" src="img/summer-house-interior.jpg" alt="House in the forest">
                 </div>
                 <div class="img-line gallery-picture__summer-down">
-                    <img width="600" src=".github/workflows/img/sm_c3ff7e3ad85d8d869e76e60afa4a81b1.jpg" alt="House in the forest">
-                    <img width="600" src=".github/workflows/img/sm_ea4dfb02a1fdca8650d0f2c8da152903.jpg" alt="House in the forest">
+                    <img width="300" src="img/summer-house-in-the-forest.jpg" alt="House in the forest">
+                    <img width="300" src="img/summer-house-with-flowers.jpg" alt="House in the forest">
                 </div>
             </div>
         </div>
         
         <div id="block2" class="block block2">
+            <div id="gallery-picture__winter" class="gallery-picture__winter">
+                <div class="img-line gallery-picture__winter-up">
+                    <img width="300" src="img/winter-mountains.jpg" alt="House in the forest">
+                    <img width="300" src="img/winter-skier.jpg" alt="House in the forest">
+                </div>
+                <div class="img-line gallery-picture__winter-middle">
+                    <img width="300" src="img/winter-girl-with-coffee.jpg" alt="House in the forest">
+                    <img width="300" src="img/winter-house-by-the-lake.jpg" alt="House in the forest">
+                </div>
+                <div class="img-line gallery-picture__winter-down">
+                    <img width="300" src="img/winter-horse.jpg" alt="House in the forest">
+                    <img width="300" src="img/winter-houses-in-the-mountains.jpg" alt="House in the forest">
+                </div>
+            </div>
+        </div>
+        <div id="block3" class="block block3">
             <div id="gallery-picture__spring" class="gallery-picture__spring">
                 <div class="img-line gallery-picture__spring-up">
-                    <img width="600" src=".github/workflows/img/otel_solidvillage_photo.jpg" alt="House in the forest">
-                    <img width="600" src=".github/workflows/img/1490631456_idq3pyne-uw.jpg" alt="House in the forest">
-                </div>
-                <div class="img-line gallery-picture__spring-middle">
-                    <img width="600" src=".github/workflows/img/otel_solidvillage_photo35.jpg" alt="House in the forest">
-                    <img width="600" src=".github/workflows/img/otel_solidvillage_photo36.jpg" alt="House in the forest">
+                    <img width="600" src="img/spring-house-on-the-mountain.jpg" alt="House in the forest">
                 </div>
                 <div class="img-line gallery-picture__spring-down">
-                    <img width="600" src=".github/workflows/img/otel_solidvillage_photo36.jpg" alt="House in the forest">
-                    <img width="600" src=".github/workflows/img/otel_solidvillage_photo36.jpg" alt="House in the forest">
+                    <img width="300" src="img/spring-house-near-the-lake.jpg" alt="House in the forest">
+                    <img width="300" src="img/spring-hous-in-the-forest.jpg" alt="House in the forest">
+                </div>
+            </div>
+        </div>
+        <div id="block4" class="block block4">
+            <div id="gallery-picture__autumn" class="gallery-picture__autumn">
+                <div class="img-line gallery-picture__autumn-up">
+                    <img width="600" src="img/autumn-gray-house.jpg" alt="House in the forest">
+                </div>
+                <div class="img-line gallery-picture__autumn-down">
+                    <img width="300" src="img/autumn-house-in-the-forest.jpg" alt="House in the forest">
+                    <img width="300" src="img/autumn-girl-near-the-house.jpg" alt="House in the forest">
+                </div>
+            </div>
+        </div>
+        <div id="block5" class="block block5">
+            <div id="gallery-picture__fishing" class="gallery-picture__fishing">
+                <div class="img-line gallery-picture__fishing-up">
+                    <img width="600" src="img/fishing-fisherman.jpg" alt="House in the forest">
+                </div>
+                <div class="img-line gallery-picture__fishing-down">
+                    <img width="300" src="img/fishing-wooden-boat.jpg" alt="House in the forest">
+                    <img width="300" src="img/fishing-red-boat.jpg" alt="House in the forest">
+                </div>
+            </div>
+        </div>
+        <div id="block6" class="block block6">
+            <div id="gallery-picture__spa" class="gallery-picture__spa">
+                <div class="img-line gallery-picture__spa-up">
+                    <img width="600" src="img/spa-window.jpg" alt="House in the forest">
+                </div>
+                <div class="img-line gallery-picture__spa-down">
+                    <img width="300" src="img/spa-bath.jpg" alt="House in the forest">
+                    <img width="300" src="img/spa-terrace.jpg" alt="House in the forest">
                 </div>
             </div>
         </div>
